@@ -1,0 +1,11 @@
+[package]
+name = "adventofcode"
+version = "0.1.0"
+authors = ["Spyridon Pagkalos <spyridon@ender.gr>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "dec01"
+path = "src/dec01.rs"
