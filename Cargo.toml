@@ -5,7 +5,12 @@ authors = ["Spyridon Pagkalos <spyridon@ender.gr>"]
 edition = "2018"
 
 [dependencies]
+regex = "1"
 
 [[bin]]
 name = "dec01"
 path = "src/dec01.rs"
+
+[[bin]]
+name = "dec02"
+path = "src/dec02.rs"
